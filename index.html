@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="index.css" />
+  <script src="render.js"></script>
+</head>
+
+<body>
+  <h1 class="title is-1">🔢 Calculator 🔢</h1>
+  <hr />
+  <p class="title is-4">The ultimate electron calculator</p>
+
+  <div class="control">
+    <input type="number" class="input is-large" style="background-color: rgb(39, 39, 39);" id="num1" required>
+  </div>
+  <div class="control is-inline-flex">
+    <button id="operatorDown">◀</button>
+    <h1 id="operator" class="title is-2">+</h1>
+    <button id="operatorUp">▶</button>
+  </div>
+  <div class="control">
+    <input type="number" class="input is-large" style="background-color: rgb(39, 39, 39);" id="num2" required>
+  </div>
+  <br /><br />
+  <button class="button" id="submit">=</button>
+  <br /><br />
+  <input type="number" class="input is-medium" style="background-color: rgb(42, 51, 47);" id="result"
+    placeholder="Result" readonly>
+
+</body>
+
+</html>
